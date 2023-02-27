@@ -1,0 +1,139 @@
+@media all and (min-width:768px){
+
+/* 버튼스타일 */
+.defaultBtn{
+    width: 185px;
+    height:60px;
+    line-height: 60px;
+    font-size: 16px;
+}
+.defaultBtn:before{
+    width: 58px;
+    height: 58px;
+}
+
+/* 오브젝트들 */
+
+#s1 .bgObject{}
+#s1 .bgObject .bar{
+    display: block;
+    width: 600px;
+    height:1px;
+    background-color:#000;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+#s1 .bgObject .bar1{
+    top: -100px;
+    right:-200px;
+}
+
+#s1 .bgObject .bar2{
+    bottom:-100px;
+    left:-350px;
+}
+
+
+#s1 .bgObject .round1{
+    width: 230px;
+    height: 230px;
+    border: 60px solid #5fb6ff;
+    top:100px;
+    right: -130px;
+}
+
+#s1 .bgObject .round2{
+    width: 370px;
+    height:370px;
+    border:80px solid #1313d4;
+    bottom:-220px;
+    left:50%;
+    margin-left: 110px;
+}
+
+/* s1  */
+
+#s1 .subTit{
+    position: absolute;
+    top:-30px;
+    right:0;
+    font-size:20px;
+    font-weight: 200;
+    font-size:22px;
+    letter-spacing: 5px;
+    display:block;
+}
+
+/* section 공통영역(main제외) */
+
+section:not(#s1){
+    padding:100px 0;
+}
+section:not(#s1) h3{
+    font-size:72px;
+    margin-bottom:70px;
+    width:95%;
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* s2영역 */
+
+#s2 .con{
+    width:95%;
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+#s2 .item{
+    width:47%;
+    margin-bottom:170px;
+}
+
+#s2 .item h4{
+    font-size:24px;
+    margin-bottom:80px;
+}
+
+#s2 .item li{
+    margin-bottom:25px;
+    margin-top:0;
+}
+#s2 .defaultBtn{
+    position:fixed;
+    top: 30px;
+    right:20px;
+    display:none;
+}
+
+
+#s2 .str1{
+    width:234px;
+    height:234px;
+    top:470px;
+    left:-80px
+}
+
+#s2 .str2{
+    width:348px;
+    height:348px;
+    bottom:60px;
+    right:-20px
+}
+
+#s2 .round1{
+    width:230px;
+    height:230px;
+    top:50%;
+    margin-top:160px;
+    left: 80px;
+    border-radius: 50%;
+    border:80px solid #fff;
+    position: absolute;
+}
+}/*태블릿끝*/
