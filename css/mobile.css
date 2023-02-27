@@ -334,10 +334,11 @@ section:not(#s1) h3{
 #s2 .item li{
     display:flex;
     margin-bottom: 10px;
+    font-size:14px;
 }
 #s2 .item strong{
     width:30%;
-    font-weight:800;
+    font-weight:700;
 }
 #s2 .item span{
     width:70%
