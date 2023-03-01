@@ -1,5 +1,6 @@
 @media all and (min-width:768px){
-
+aside{
+}
 /* 버튼스타일 */
 .defaultBtn{
     width: 185px;
@@ -14,8 +15,8 @@
 
 /* 오브젝트들 */
 
-#s1 .bgObject{}
-#s1 .bgObject .bar{
+#s1{}
+#s1 .bar{
     display: block;
     width: 600px;
     height:1px;
@@ -24,12 +25,12 @@
     position: absolute;
 }
 
-#s1 .bgObject .bar1{
+#s1 .bar1{
     top: -100px;
     right:-200px;
 }
 
-#s1 .bgObject .bar2{
+#s1 .bar2{
     bottom:-100px;
     left:-350px;
 }
