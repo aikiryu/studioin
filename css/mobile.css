@@ -264,7 +264,7 @@ nav a{
 
 /* 오브젝트들 */
 
-#s1 .bgObject .round{
+#s1 .round{
     position: absolute;
     border-radius: 50%;
     box-sizing: border-box;
@@ -272,7 +272,7 @@ nav a{
 }
 
 
-#s1 .bgObject .round2{
+#s1 .round2{
     width: 180px;
     height:180px;
     border:50px solid #1313d4;
@@ -376,7 +376,13 @@ section:not(#s1) h3{
 }
 
 /* #s3 */
-h#
+#s3{
+    position:relative;
+}
+#s3 .con{
+    position: relative;
+    z-index: 3;
+}
 #s3 .item:not(:last-child){
     margin-bottom:80px;
 }
@@ -406,12 +412,49 @@ h#
 
 /* #s4 */
 #s4{
-    height:100vh;
     background-image: url(../images/s4_bg.jpg);
     background-size: cover;
     background-position: left 0;
+    color:#fff;
+    padding-bottom: 80px;
 }
 
 #s4 h3{
     color:#fff;
+}
+
+#s4 figure{}
+#s4 figure img{
+    width:100%;
+}
+#s4 h2{
+    font-weight: 300;
+    font-size:32px;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+#s4 h2 span{
+    display:block;    
+    letter-spacing: 10px;
+    font-size:18px;
+}
+address{
+    font-style: normal;
+    font-size:18px;
+}
+address *{
+    display:block;
+    margin-bottom:10px;
+}
+
+footer{
+    background-color: #000062;
+    padding:20px 0px;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+}
+
+footer p:first-child{
+    margin-bottom: 5px;
 }

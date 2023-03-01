@@ -35,21 +35,24 @@
 }
 
 
-#s1 .bgObject .round1{
+#s1 .round1{
     width: 230px;
     height: 230px;
     border: 60px solid #5fb6ff;
-    top:100px;
-    right: -130px;
+    top:0px;
+    right:0;
+    margin-right: -115px;
+    margin-top: 100px;
 }
 
-#s1 .bgObject .round2{
+#s1 .round2{
     width: 370px;
     height:370px;
     border:80px solid #1313d4;
-    bottom:-220px;
+    bottom:0;
     left:50%;
     margin-left: 110px;
+    margin-bottom: -185px;
 }
 
 /* s1  */
@@ -153,5 +156,99 @@ section:not(#s1) h3{
     width:48%;
     margin-bottom:120px;
     max-width: 580px;
+}
+
+#s3 .round2{
+    border:#5fb6ff 60px solid;
+    width:258px;
+    height: 258px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    left:0;
+    margin-left:-129px;
+    top:50%;
+}
+
+#s3 .round1{
+    border:#1313d4 80px solid;
+    width:370px;
+    height: 370px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    right:0;
+    margin-right:-185px;
+    top:0;
+    margin-top: 80px;
+}
+
+/* s4영역 */
+
+#s4 .con{
+    width: 95%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    position: relative;
+    display: flex;
+}
+#s4 .item{
+    flex:1;
+    position: relative;
+}
+#s4 .item:first-child{
+    order:2;
+}
+#s4 figure{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+}
+
+#s4 .item:last-child{
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    padding:0 5%;
+}
+
+#s4 .round{
+    width:272px;
+    height:272px;
+    border-radius: 50%;
+    border:60px #1313d4 solid;
+    box-sizing: border-box;
+    position: absolute;
+    right:0;
+    top:0;
+    margin-top: -136px;
+    margin-right:-136px;
+}
+
+#s4 .bar{
+    height: 360px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(-65deg);
+    top:0;
+    left:0;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+footer .fWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 }/*태블릿끝*/
