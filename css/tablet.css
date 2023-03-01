@@ -110,8 +110,9 @@ section:not(#s1) h3{
 }
 #s2 .defaultBtn{
     position:fixed;
-    top: 30px;
-    right:20px;
+    left: 50%;
+    top:100px;
+    margin-left: 475px;
     display:none;
 }
 
@@ -216,6 +217,7 @@ section:not(#s1) h3{
     flex-direction: column;
     justify-content: end;
     padding:0 5%;
+    align-items: flex-end;
 }
 
 #s4 .round{

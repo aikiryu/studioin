@@ -48,12 +48,14 @@ function pc(){
 
     $(window).on('scroll',function(){
         let scr = $(window).scrollTop();
+
+        if(scr>=offset_s2 && scr<=offset_s3-300){
+            $('#s2 .defaultBtn').stop().fadeIn();
+        }else{
+            $('#s2 .defaultBtn').stop().fadeOut();
+        }
         if(scr >= offset_s2){
-            aside.fadeIn(function(){
-                aside.css({
-                    'display':'flex'
-                })
-            });
+            aside.fadeIn();
             btn_aside.removeClass('active');
             btn_aside.eq(1).addClass('active');
         }else{
@@ -74,12 +76,19 @@ function pc(){
 
 function common(){
 
+    let logo =$('h1');
     let btn_toContact = $('.toContact');
     let btn_toPortfolio = $('.toPortfolio');
 
     let offset_contact = $('#s4').offset().top;
     let offset_portfolio = $('#s3').offset().top;
 
+    h1.click(function(e){
+        e.preventDefault();
+        $('html,body').stop().animate({
+            'scrollTop' : 0
+        });
+    }); //h1.click
     btn_toContact.click(function(){
         $('html,body').stop().animate({
             'scrollTop' : offset_contact

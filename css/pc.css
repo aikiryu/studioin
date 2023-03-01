@@ -120,5 +120,9 @@ nav div{
     white-space: nowrap;
 }
 
+#s4 .bar{
+    margin-left: -40px;
+}
+
 
 }/*끝*/

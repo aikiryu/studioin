@@ -102,25 +102,23 @@
 aside{
     display:none;
     position:fixed;
-    top:150px;
+    bottom: 40px;
     flex-direction: column;
-    right:0;
+    right:40px;
     z-index: 999;
-    margin-right: 5%;
 }
 aside button{
-    width:18px;
-    height:18px;
+    width:14px;
+    height:14px;
     /* background-color: #d0d0d0; */
     border-radius: 50%;
-    margin-top:5px;
-    margin-bottom:5px;
     border:1px solid #333;
-    box-sizing:border-box
-    
+    box-sizing:border-box;
+    margin-left:10px;
+    box-shadow: 2px 2px 0 #fff;
 }
 aside button.active{
-    background-color: #5fb6ff;
+    background-color: #1313d4;
     border:0;
 }
 
@@ -240,6 +238,8 @@ nav a{
 #s1 .content{
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 3;
 }
 
 #s1 .content p{
@@ -391,6 +391,7 @@ nav a{
 
 section:not(#s1){
     padding:60px 20px;
+    overflow: hidden;
 }
 section:not(#s1) h3{
     font-weight: 200;
