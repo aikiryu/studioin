@@ -62,9 +62,15 @@ $('.viewBtn').click(function(){
 $('#view').fadeIn();
 $('#view').css({'display':'flex'});
 $('.playBox').html(iframe);
+
+$('#view h4').text(tit);
+$('body').css({'overflow' : 'hidden'})
 });
 
 $('.closeBox').click(function(){
  $('#view').fadeOut();
  $('.playBox').html('');
+ $('#view h4').text('');
+ $('body').css({'overflow' : 'unset'})
+
 });

@@ -97,7 +97,7 @@ function common(){
     let offset_contact = $('#s4').offset().top;
     let offset_portfolio = $('#s3').offset().top;
 
-    h1.click(function(e){
+    logo.click(function(e){
         e.preventDefault();
         $('html,body').stop().animate({
             'scrollTop' : 0
