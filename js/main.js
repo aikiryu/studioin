@@ -1,6 +1,7 @@
 function mobile(){
 
-
+let winHeight = window.innerHeight - 50;
+$('#s1').height(winHeight);
 let navSwitch = false;
 $('.navOpen').click(function(){
 
@@ -129,7 +130,6 @@ function common(){
 
 $(window).resize(function(){
     let winW = $(window).width();
-    $('body').css({'backgroundColor':'pink'})
     console.log(winW);
     if(winWidth <= 1024){
         setTimeout(() => {

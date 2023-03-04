@@ -1,4 +1,8 @@
 @media all and (min-width:1024px){
+#s1{
+        height:100vh;
+
+}
 /* s1 오브젝트 */
 #s1 .bgObject .bar1{
     top: -30px;
