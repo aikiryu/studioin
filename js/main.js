@@ -69,7 +69,21 @@ function pc(){
             btn_aside.removeClass('active');
             btn_aside.eq(2).addClass('active');
         }
+
+
+        $('.obj').each(function(){
+            let coPoint = $(this).offset().top;
+
+            if(coPoint < scr){
+                let diffrence = (scr - coPoint) / 1.3;
+                $(this).css({'transform' : `translateY(${diffrence}px)`})
+            }
+        
+        })
+
     });
+
+
     
 
 }//pc
