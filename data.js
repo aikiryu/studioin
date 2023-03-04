@@ -63,3 +63,8 @@ $('#view').fadeIn();
 $('#view').css({'display':'flex'});
 $('.playBox').html(iframe);
 });
+
+$('.closeBox').click(function(){
+ $('#view').fadeOut();
+ $('.playBox').html('');
+});

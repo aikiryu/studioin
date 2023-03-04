@@ -522,7 +522,7 @@ section:not(#s1) h3{
 }
 
 #view .playBox{
-    position: absolute;
+    position: relative;
     z-index:50;
     width:calc(100vw - 40px);
     height:calc(((100vw - 40px) / 16) * 9)
