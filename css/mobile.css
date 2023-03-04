@@ -394,6 +394,7 @@ nav a{
 section:not(#s1){
     padding:60px 20px;
     overflow: hidden;
+    box-sizing:border-box;
 }
 section:not(#s1) h3{
     font-weight: 200;
