@@ -1,5 +1,7 @@
 /* 버튼스타일 */
-
+body{
+    overflow-x: hidden;
+}
 .defaultBtn{
     width: 145px;
     height:50px;
@@ -599,4 +601,8 @@ footer{
 
 footer p:first-child{
     margin-bottom: 5px;
+}
+
+footer a{
+    text-decoration: underline;
 }

@@ -81,6 +81,8 @@ $('.closeBox').click(function(){
  $('#view').fadeOut();
  $('.playBox').html('');
  $('#view h4').text('');
- $('body').css({'overflow' : 'unset'})
+ $('body').css({
+    'overflow' : 'unset',
+    'oveflow-x':'hidden'})
 
 });
