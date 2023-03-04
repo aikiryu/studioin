@@ -126,6 +126,18 @@ function common(){
         .animate({'scrollTop' : destination});
     });
 
+
+$(window).resize(function(){
+    let winW = $(window).width();
+    $('body').css({'backgroundColor':'pink'})
+    console.log(winW);
+    if(winWidth <= 1024){
+        setTimeout(() => {
+            location.reload();
+        }, 500);
+    }
+
+});
 }//common
 
 
@@ -142,14 +154,3 @@ if(winWidth >= 1024){
 common();
 
 
-
-$(window).resize(function(){
-    let winW = $(window).width();
-
-    if(winWidth <= 1024){
-        setTimeout(() => {
-            location.reload();
-        }, 500);
-    }
-
-});
