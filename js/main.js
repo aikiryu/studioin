@@ -131,7 +131,7 @@ function common(){
 $(window).resize(function(){
     let winW = $(window).width();
     console.log(winW);
-    if(winW <= 1024){
+    if(winW >= 1024){
         setTimeout(() => {
             location.reload();
         }, 500);
