@@ -42,12 +42,13 @@ nav{
     padding:0;
     font-size:18px;
     margin-left: 100px;
+    box-shadow: none;
+
 }
 
 nav div{
     transform: unset;
     transition: unset;
-    box-shadow: none;
 }
 .navOpen{
     display:none;
