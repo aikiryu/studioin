@@ -160,7 +160,8 @@ h1{
     background-color:#000;
     top:24px;
     left:12px;
-    transition: transform 1s;
+    transition: transform 1s;	
+    will-change: transform;
 }
 
 .navOpen span:nth-child(1){
@@ -196,12 +197,16 @@ nav{
     -webkit-backdrop-filter:blur(5px);
     overflow: hidden;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+
 }
 nav div{
     display: flex;
     width:100%;
     transition: all 1s;
-    transform: translateX(-100%);
+    transform: translateX(-100%);	
+    -webkit-transform: translateX(-100%);	
+    will-change: transform;
+
 }
 nav a{
     margin-right:30px;

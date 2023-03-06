@@ -47,6 +47,7 @@ nav{
 nav div{
     transform: unset;
     transition: unset;
+    box-shadow: none;
 }
 .navOpen{
     display:none;
