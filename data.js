@@ -26,7 +26,7 @@ let data = [
     {
         name : '아라 홍보영상',
         describtion : '기업(아라F&D)홍보영상',
-        link : 'JYm-jDtiovc',
+        link : 'U9iFYgINOZo',
         image: 'youtube5.jpg'
     },
 ];
