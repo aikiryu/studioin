@@ -302,8 +302,8 @@ nav a{
 
 .mouse {
     position: relative;
-    width: 36px;
-    height: 60px;
+    width: 18px;
+    height: 30px;
     border: 1px solid #000;
     border-radius: 480px;
     margin-left: auto;
@@ -322,13 +322,13 @@ nav a{
   }
   
   .wheel {
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
     background-color: #1313d4;
     border-radius: 50%;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 5px;
+    top: 5px;
     -webkit-animation-duration: 1.5s;
             animation-duration: 1.5s;
     -webkit-animation-iteration-count: infinite;
@@ -353,7 +353,7 @@ nav a{
       opacity: 1;
     }
     90% {
-      transform: translateY(32px);
+      transform: translateY(8px);
       opacity: 0;
     }
   }
@@ -364,13 +364,13 @@ nav a{
       opacity: 1;
     }
     90% {
-      transform: translateY(32px);
+      transform: translateY(8px);
       opacity: 0;
     }
   }
   @-webkit-keyframes scrollUp {
     0% {
-      transform: translateY(32px);
+      transform: translateY(8px);
       opacity: 1;
     }
     90% {
@@ -507,18 +507,17 @@ section:not(#s1) h3{
     line-height: normal;
 }
 #s3 .item p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #s3 figcaption{
     margin-top: 30px;
     position: relative;
-    text-indent: 10px;
+    padding:0 10px;
 }
 
 #s3 .item button{
-    position:absolute;
-    right: 20px;
-    bottom:0
+    margin-left: auto;
+    display:block;
 }
 
 #view{
