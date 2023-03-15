@@ -2,7 +2,7 @@ let data = [
     {
         name : '동의동락 온택트 프로그램',
         describtion : '동의대학교 지역봉사 프로젝트',
-        link : '8tWsh9IuSiY',
+        link : '5CYpPop3_14',
         image: 'youtube1.jpg'
     },
     {
@@ -35,7 +35,6 @@ let data = [
 //이 이하로는 코드를 수정하면 안됩니다.
 
 data.forEach(function(a,b){
-    console.log(a);
     let container = document.querySelector('#portfolio');
     let item = document.createElement('div');
     let figure = document.createElement('figure');
